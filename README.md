@@ -6,6 +6,7 @@ Brave Collective Mumble SSO
 What is this?
 -------------
 This package offers an easy to use solution managing access to a mumble server using the EVE Online Single-Sign-On mechanism.
+This fork has minor changes required to work with php7 and python2.7
 
 Screenshots: demo.png
 
@@ -21,10 +22,11 @@ Features?
 Requirements
 ------------------
 
-* PHP 5.x (webserver and cli)
+* PHP 7.x (webserver and cli)
 * MySQL
-* Python 2.6.5
+* Python 2.7
 * Mumble Server (murmur)
+* Ice 3.5
 
 Installation
 ------------------
